@@ -132,13 +132,40 @@ namespace TrainingApplication
         protected global::System.Web.UI.WebControls.Button txtSubmit;
 
         /// <summary>
-        /// txtExit control.
+        /// txtEdit control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button txtExit;
+        protected global::System.Web.UI.WebControls.Button txtEdit;
+
+        /// <summary>
+        /// txtUpdate control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button txtUpdate;
+
+        /// <summary>
+        /// txtRest control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button txtRest;
+
+        /// <summary>
+        /// txtDelete control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button txtDelete;
 
         /// <summary>
         /// lblResult control.

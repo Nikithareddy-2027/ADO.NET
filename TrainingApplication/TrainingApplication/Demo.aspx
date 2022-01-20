@@ -4,12 +4,11 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-
     <title>Training Application</title>
 </head>
 <body>
     <form runat="server">
-        <div style =" background-color: antiquewhite;height : 350px; width : 600px ">
+        <div style =" background-color: antiquewhite;height : 253px; width : 426px">
             <table>
                 <tr>
                     <td>
@@ -60,9 +59,13 @@
                     </td>
                 </tr>
                 <tr>
+                    <td></td>
                     <td>
                         <asp:Button ID="txtSubmit" runat="server" Text="Submit" OnClick="txtSubmit_Click" />
-                        <asp:Button ID="txtExit" runat="server" Text="Exit" />
+                        <asp:Button ID="txtEdit" runat="server" Text="Edit" OnClick="txtEdit_Click" />
+                        <asp:Button ID="txtUpdate" runat="server" Text="Update" OnClick="txtUpdate_Click" />
+                        <asp:Button ID="txtRest" runat="server" Text="Reset" OnClick="txtRest_Click" />
+                        <asp:Button ID="txtDelete" runat="server" Text="Delete" OnClick="txtDelete_Click" />
                     </td>
                 </tr>
             </table>

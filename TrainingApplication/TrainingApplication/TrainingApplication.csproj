@@ -68,6 +68,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Demo.aspx" />
+    <Content Include="Details.aspx" />
+    <Content Include="EmpMaster.aspx" />
+    <Content Include="Home.aspx" />
+    <Content Include="Job Details.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -78,11 +82,47 @@
     <Compile Include="Demo.aspx.designer.cs">
       <DependentUpon>Demo.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Details.aspx.cs">
+      <DependentUpon>Details.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Details.aspx.designer.cs">
+      <DependentUpon>Details.aspx</DependentUpon>
+    </Compile>
     <Compile Include="EmployeeFolder\DetailsMode.cs" />
     <Compile Include="EmployeeFolder\EmployeeConncet.cs" />
+    <Compile Include="EmployeeMaster.Master.cs">
+      <DependentUpon>EmployeeMaster.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EmployeeMaster.Master.designer.cs">
+      <DependentUpon>EmployeeMaster.Master</DependentUpon>
+    </Compile>
+    <Compile Include="EmpMaster.aspx.cs">
+      <DependentUpon>EmpMaster.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EmpMaster.aspx.designer.cs">
+      <DependentUpon>EmpMaster.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Job Details.aspx.cs">
+      <DependentUpon>Job Details.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Job Details.aspx.designer.cs">
+      <DependentUpon>Job Details.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="EmployeeMaster.Master" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
