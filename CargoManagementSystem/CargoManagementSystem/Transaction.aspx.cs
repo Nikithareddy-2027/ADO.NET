@@ -30,5 +30,10 @@ namespace CargoManagementSystem
 
             transObj.InsertDetails(transinfo);
         }
+
+        protected void txtExit_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

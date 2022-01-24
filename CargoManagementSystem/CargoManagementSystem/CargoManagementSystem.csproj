@@ -31,7 +31,8 @@
     <OutputPath>bin\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
+    <WarningLevel>0</WarningLevel>
+    <RegisterForComInterop>true</RegisterForComInterop>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -71,7 +72,9 @@
     <Content Include="Billing_Details.aspx" />
     <Content Include="Cust.aspx" />
     <Content Include="Customer_Details.aspx" />
+    <Content Include="Login.aspx" />
     <Content Include="Register.aspx" />
+    <Content Include="Register_Details.aspx" />
     <Content Include="Transaction.aspx" />
     <Content Include="Transaction_Details.aspx" />
     <Content Include="Web.config" />
@@ -112,6 +115,13 @@
     <Compile Include="Customer_Details.aspx.designer.cs">
       <DependentUpon>Customer_Details.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Register.aspx.cs">
       <DependentUpon>Register.aspx</DependentUpon>
@@ -119,6 +129,13 @@
     </Compile>
     <Compile Include="Register.aspx.designer.cs">
       <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Register_Details.aspx.cs">
+      <DependentUpon>Register_Details.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Register_Details.aspx.designer.cs">
+      <DependentUpon>Register_Details.aspx</DependentUpon>
     </Compile>
     <Compile Include="Transaction.aspx.cs">
       <DependentUpon>Transaction.aspx</DependentUpon>

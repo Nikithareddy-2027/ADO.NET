@@ -17,7 +17,7 @@ namespace CargoData
             DataTable dt = new DataTable();
             SqlConnection sqlConnectionObj = new SqlConnection(sqlConnectionStr);
 
-            SqlDataAdapter adp = new SqlDataAdapter("insert into CustomerDetails values(" + custObj.CustName + ",'" + custObj.Address + "','" + custObj.City + "'," + custObj.PinCode + ",'" + custObj.PhNo + "')", sqlConnectionObj);
+            SqlDataAdapter adp = new SqlDataAdapter("insert into CustomerDetails values('" + custObj.CustName + "','" + custObj.Address + "','" + custObj.City + "'," + custObj.PinCode + ",'" + custObj.PhNo + "')", sqlConnectionObj);
             
             adp.Fill(dt);
            

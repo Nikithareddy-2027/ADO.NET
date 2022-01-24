@@ -32,5 +32,7 @@ namespace CargoManagementSystem
 
             billObj.InsertDetails(billinfo);
         }
+
+        
     }
 }

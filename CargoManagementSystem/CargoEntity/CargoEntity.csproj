@@ -45,6 +45,7 @@
     <Compile Include="Cust_Info.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Receiver_Info.cs" />
+    <Compile Include="Reg_Info.cs" />
     <Compile Include="Trans_Info.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

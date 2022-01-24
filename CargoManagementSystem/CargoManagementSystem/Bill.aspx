@@ -53,8 +53,8 @@
                 <tr>
                     <td></td>
                     <td>
-                        <asp:Button ID="txtSave" runat="server" Text="Save" OnClick="txtSave_Click" />
-                        <asp:Button ID="txtExit" runat="server" Text="Exit" />
+                        <asp:Button ID="txtSave" runat="server" Text="Save"  />
+                        <asp:Button ID="txtExit" runat="server" Text="Exit"  />
                     </td>
                 </tr>
             </table>

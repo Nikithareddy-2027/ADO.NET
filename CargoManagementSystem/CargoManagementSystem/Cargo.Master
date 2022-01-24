@@ -15,7 +15,7 @@
                 <h1>Welcome to Cargo Management System</h1>
                 <hr />
                 <ul style="list-style:none;">
-                    <li><a href="Register.aspx">Register Details</a></li>
+                    <li><a href="Register_Details.aspx">Register Details</a></li>
                     <li><a href="Cust.aspx">Customer Details</a></li>
                     <li><a href="Transaction.aspx">Transaction Details</a></li>
                     <li><a href="Bill.aspx">Billing Details</a></li>

@@ -45,6 +45,7 @@
     <Compile Include="CustomerDetails.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ReceiverDetails.cs" />
+    <Compile Include="RegisterDetails.cs" />
     <Compile Include="TransactionDetails.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -45,6 +45,7 @@
     <Compile Include="Customer_Connection.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Receive_Connection.cs" />
+    <Compile Include="register_Connection.cs" />
     <Compile Include="Trans_Connection.cs" />
   </ItemGroup>
   <ItemGroup>
