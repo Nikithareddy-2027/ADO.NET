@@ -73,6 +73,7 @@
     <Content Include="Cust.aspx" />
     <Content Include="Customer_Details.aspx" />
     <Content Include="Login.aspx" />
+    <Content Include="MyStyle.css" />
     <Content Include="Register.aspx" />
     <Content Include="Register_Details.aspx" />
     <Content Include="Transaction.aspx" />
