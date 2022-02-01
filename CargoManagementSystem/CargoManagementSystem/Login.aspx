@@ -1,14 +1,8 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="CargoManagementSystem.Login" %>
-
-<!DOCTYPE html>
-
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    <title></title>
-</head>
-<body>
-    <form id="form1" runat="server">
-        <div>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Register.Master" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="CargoManagementSystem.Login" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <div>
             <table>
                
                 <tr>
@@ -36,7 +30,7 @@
                 <tr>
                     <td></td>
                     <td>
-                        <asp:Button ID="txtSignIn" runat="server" Text="Sign-in" />
+                        <asp:Button ID="txtSignIn" runat="server" Text="Sign-in" OnClick="txtSignIn_Click" />
                         <asp:Button ID="txtForgetPwd" runat="server" Text="Forget Password" />
                     </td>
                 </tr>
@@ -49,7 +43,4 @@
         <p>
             <asp:Label Text ="" ID="lblResult" runat="server" />
             </p>
-     
-    </form>
-</body>
-</html>
+</asp:Content>

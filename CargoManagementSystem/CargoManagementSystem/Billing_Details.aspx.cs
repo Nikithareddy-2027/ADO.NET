@@ -15,5 +15,19 @@ namespace CargoManagementSystem
         {
 
         }
+
+        protected void txtSave_Click(object sender, EventArgs e)
+        {
+            Bill_Connection billObj = new Bill_Connection();
+            Bill_Info billinfo = new Bill_Info();
+
+            billinfo.BillNo = Convert.ToInt32(txtBillNo.Text);
+            //billinfo.CustId = Convert.ToInt32(txtCustId.Text);
+            billinfo.TransId = Convert.ToInt32(txttransId.Text);
+            billinfo.Date = txtDate.Text;
+            billinfo.AmountPaid = Convert.ToInt32(txtAmountPaid.Text);
+
+            billObj.InsertDetails(billinfo);
+        }
     }
 }

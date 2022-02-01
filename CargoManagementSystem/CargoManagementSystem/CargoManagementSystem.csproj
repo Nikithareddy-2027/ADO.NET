@@ -68,26 +68,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Bill.aspx" />
     <Content Include="Billing_Details.aspx" />
-    <Content Include="Cust.aspx" />
     <Content Include="Customer_Details.aspx" />
     <Content Include="Login.aspx" />
     <Content Include="MyStyle.css" />
     <Content Include="Register.aspx" />
-    <Content Include="Register_Details.aspx" />
-    <Content Include="Transaction.aspx" />
     <Content Include="Transaction_Details.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Bill.aspx.cs">
-      <DependentUpon>Bill.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Bill.aspx.designer.cs">
-      <DependentUpon>Bill.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Billing_Details.aspx.cs">
       <DependentUpon>Billing_Details.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -101,13 +90,6 @@
     </Compile>
     <Compile Include="Cargo.Master.designer.cs">
       <DependentUpon>Cargo.Master</DependentUpon>
-    </Compile>
-    <Compile Include="Cust.aspx.cs">
-      <DependentUpon>Cust.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Cust.aspx.designer.cs">
-      <DependentUpon>Cust.aspx</DependentUpon>
     </Compile>
     <Compile Include="Customer_Details.aspx.cs">
       <DependentUpon>Customer_Details.aspx</DependentUpon>
@@ -131,19 +113,12 @@
     <Compile Include="Register.aspx.designer.cs">
       <DependentUpon>Register.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Register_Details.aspx.cs">
-      <DependentUpon>Register_Details.aspx</DependentUpon>
+    <Compile Include="Register.Master.cs">
+      <DependentUpon>Register.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Register_Details.aspx.designer.cs">
-      <DependentUpon>Register_Details.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Transaction.aspx.cs">
-      <DependentUpon>Transaction.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Transaction.aspx.designer.cs">
-      <DependentUpon>Transaction.aspx</DependentUpon>
+    <Compile Include="Register.Master.designer.cs">
+      <DependentUpon>Register.Master</DependentUpon>
     </Compile>
     <Compile Include="Transaction_Details.aspx.cs">
       <DependentUpon>Transaction_Details.aspx</DependentUpon>
@@ -156,6 +131,7 @@
   <ItemGroup>
     <Content Include="Cargo.Master" />
     <None Include="packages.config" />
+    <Content Include="Register.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
